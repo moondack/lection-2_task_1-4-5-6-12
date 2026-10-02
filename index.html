@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    вывод текста
+</head>
+<body>
+  <script src="script.js"></script>
+    <script>
+            document.write("Привет!" + "<br>");
+            alert_hello();
+            let name = "Даниил";
+            alert("Привет," + name + "!");
+            let name_prompt = prompt ("Ваше имя");
+            alert("ваше имя: " + name_prompt);
+            alert("введите два числа для их суммы в следующих двух окнах");
+            let number_1 = prompt ("введите 1-ое число");
+            let number_2 = prompt ("введите 2-ое число");
+            alert("Ответ: " +number_1 + +number_2);
+            let a_multiplication = prompt("введите число для таблицы умножения на него")
+            for(i = 1;i <=10;i++){
+              document.write(a_multiplication + "*" + i + "=" + (a_multiplication * i) + "<br>" )
+            }
+    </script>
+</body>
+</html>
